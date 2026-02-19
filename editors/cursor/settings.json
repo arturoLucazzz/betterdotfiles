@@ -1,0 +1,541 @@
+{
+    "editor.fontSize": 15,
+    "editor.lineHeight": 1.5,
+    // "editor.formatOnPaste": true,
+    "debug.console.fontSize": 14,
+    "editor.fontFamily": "Dank Mono",
+    "window.zoomLevel": -0.5,
+    "editor.rulers": [
+        80
+    ],
+    "breadcrumbs.symbolPath": "off",
+    "editor.tabSize": 2,
+    "editor.wordWrap": "off",
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.excludeGitIgnore": false,
+    "search.useGlobalIgnoreFiles": true,
+    "search.useIgnoreFiles": true,
+    "files.autoSave": "onFocusChange",
+    "editor.minimap.renderCharacters": false,
+    "editor.minimap.enabled": false,
+    "files.eol": "\n",
+    "workbench.list.openMode": "doubleClick",
+    "workbench.editor.showTabs": "none",
+    "editor.smoothScrolling": true,
+    "workbench.list.smoothScrolling": true,
+    "explorer.compactFolders": false,
+    "editor.renderWhitespace": "all",
+    "workbench.list.horizontalScrolling": true,
+    "workbench.tree.indent": 15,
+    "editor.folding": true,
+    "editor.scrollbar.vertical": "auto",
+    "editor.overviewRulerBorder": false,
+    "editor.guides.bracketPairsHorizontal": "active",
+    "editor.glyphMargin": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "git.confirmSync": false,
+    "problems.decorations.enabled": false,
+    "markdown.preview.lineHeight": 1.7,
+    "workbench.startupEditor": "none",
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "[javascript]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            // "source.fixAll": "explicit",
+            // "source.organizeImports": "explicit"
+        }
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            // "source.fixAll": "explicit",
+            // "source.organizeImports": "explicit"
+        }
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": [
+            // "source.organizeImports",
+            // "source.fixAll"
+        ]
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            // "source.fixAll": "explicit",
+            // "source.organizeImports": "explicit"
+        }
+    },
+    "[json]": {
+        "editor.formatOnSave": false,
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "editor.codeActionsOnSave": {
+        "source.addMissingImports": "explicit"
+    },
+    "editor.scrollbar.horizontalScrollbarSize": 5,
+    "editor.scrollbar.verticalScrollbarSize": 5,
+    "terminal.integrated.fontSize": 15,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "workbench.productIconTheme": "fluent-icons",
+    "editor.dragAndDrop": false,
+    "editor.lightbulb.enabled": "off",
+    "emmet.includeLanguages": {
+        "django-html": "html"
+    },
+    "workbench.editor.centeredLayoutAutoResize": false,
+    "editor.linkedEditing": true,
+    "eslint.format.enable": true,
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "workbench.colorCustomizations": {
+        "[GitHub Dark High Contrast]": {
+            "editorCursor.foreground": "#ffffff"
+        },
+        "[GitHub Light]": {
+            "editorCursor.foreground": "#000000"
+        },
+        "[Codely Dark]": {
+            "editorCursor.foreground": "#ffffff"
+        },
+        "[Default High Contrast]": {
+            "editorIndentGuide.background1": "#ffffff58",
+            "editorIndentGuide.activeBackground1": "#ffffff58"
+        },
+        "textPreformat.background": "#efefef39",
+        "editorBracketHighlight.foreground1": "#ffffffb2",
+        "editorBracketHighlight.foreground2": "#ffffffb2",
+        "editorBracketHighlight.foreground3": "#ffffffb2",
+        "editorBracketHighlight.foreground4": "#ffffffb2",
+        "editorBracketHighlight.foreground5": "#ffffffb2",
+        "editorBracketHighlight.foreground6": "#ffffffb2"
+    },
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    "comment",
+                    "constant.language",
+                    "keyword.control",
+                    "keyword.operator.expression",
+                    "keyword.other",
+                    "keyword.operator.new",
+                    "variable.language",
+                    "entity.other.attribute-name",
+                    "storage"
+                ],
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": [
+                    "storage.type.function.arrow"
+                ],
+                "settings": {
+                    "fontStyle": ""
+                }
+            }
+        ],
+        "[Codely Dark]": {
+            "textMateRules": [
+                {
+                    "scope": [
+                        "variable.other.constant"
+                    ],
+                    "settings": {
+                        "foreground": "#EBDBB2"
+                    }
+                },
+                {
+                    "scope": [
+                        "variable.other.constant.property"
+                    ],
+                    "settings": {
+                        "foreground": "#B2CCD6"
+                    }
+                },
+                {
+                    "scope": [
+                        "meta.tag"
+                    ],
+                    "settings": {
+                        "foreground": "#EBDBB2"
+                    }
+                },
+                {
+                    "scope": [
+                        "variable.other.readwrite"
+                    ],
+                    "settings": {
+                        "foreground": "#EBDBB2"
+                    }
+                },
+                {
+                    "scope": [
+                        "variable.other.object"
+                    ],
+                    "settings": {
+                        "foreground": "#EBDBB2"
+                    }
+                },
+                {
+                    "scope": [
+                        "variable.other.property"
+                    ],
+                    "settings": {
+                        "foreground": "#8EC07C"
+                    }
+                },
+                {
+                    "scope": [
+                        "comment.block.documentation"
+                    ],
+                    "settings": {
+                        "foreground": "#A89984"
+                    }
+                },
+                {
+                    "scope": [
+                        "variable.other"
+                    ],
+                    "settings": {
+                        "foreground": "#A89984"
+                    }
+                },
+                {
+                    "scope": [
+                        "keyword.operator.assignment.compound",
+                        "keyword.operator.assignment",
+                        "keyword.operator.logical",
+                        "keyword.operator.comparison",
+                        "keyword.operator.ternary"
+                    ],
+                    "settings": {
+                        "foreground": "#8EC07C",
+                        "fontStyle": ""
+                    }
+                },
+                {
+                    "scope": [
+                        "string.template"
+                    ],
+                    "settings": {
+                        "foreground": "#B8BB26"
+                    }
+                },
+                {
+                    "scope": [
+                        "punctuation.definition.string.template.begin",
+                        "punctuation.definition.string.template.end"
+                    ],
+                    "settings": {
+                        "foreground": "#B8BB26"
+                    }
+                },
+                {
+                    "scope": [
+                        "entity.name.tag"
+                    ],
+                    "settings": {
+                        "foreground": "#8EC07C"
+                    }
+                }
+            ]
+        },
+        "[One Monokai]": {
+            "comments": "#b0b1b0"
+        },
+        "[monokai-charcoal (gray)]": {
+            "comments": "#b0b1b0"
+        }
+    },
+    "remote.SSH.remotePlatform": {
+        "sandbox.vs7txy.csb": "linux"
+    },
+    "terminal.integrated.env.osx": {},
+    "editor.cursorBlinking": "solid",
+    "editor.accessibilitySupport": "off",
+    "editor.cursorSurroundingLines": 5,
+    "files.exclude": {
+        "*/.next//**": true,
+        "node_modules/*": true
+    },
+    "search.exclude": {
+        "*/.next//**": true,
+        "node_modules/*": true
+    },
+    "files.watcherExclude": {
+        "*/.next//**": true,
+        "node_modules/*": true
+    },
+    "tailwindCSS.files.exclude": [
+        "*/.git/*",
+        "*/node_modules/*",
+        "*/.hg/*",
+        "*/.svn/*",
+        "*/.next//**"
+    ],
+    "svg.preview.mode": "img",
+    "extensions.ignoreRecommendations": true,
+    "workbench.colorTheme": "GitHub Dark High Contrast",
+    "workbench.activityBar.location": "hidden",
+    "cSpell.userWords": [
+        "adscale",
+        "adsense",
+        "Aggs",
+        "aisdk",
+        "alexa",
+        "alquiler",
+        "analyticsinformation",
+        "anid",
+        "ANNONYMOUS",
+        "anonymization",
+        "APAC",
+        "apenai",
+        "apikey",
+        "associatedcompanyid",
+        "Attio",
+        "autoload",
+        "autopushd",
+        "autostash",
+        "BETTERCONTACT",
+        "btwn",
+        "bullmq",
+        "cacheutils",
+        "caction",
+        "chanin",
+        "childaccounts",
+        "classname",
+        "CLEARBIT",
+        "clera",
+        "Clickhouse",
+        "clsx",
+        "codegen",
+        "Codely",
+        "concat",
+        "conversioninformation",
+        "cquery",
+        "crunchbase",
+        "Cummulative",
+        "Datetime",
+        "dbaeumer",
+        "debuf",
+        "deeplink",
+        "deleter",
+        "demandbase",
+        "departamentos",
+        "devsite",
+        "Didn",
+        "domcontentloaded",
+        "DONT",
+        "Dopt",
+        "DOTLY",
+        "DUPS",
+        "dyno",
+        "EGVLM",
+        "Ellipsed",
+        "ellipsize",
+        "EMEA",
+        "Enrichable",
+        "Evals",
+        "exceljs",
+        "Exection",
+        "Eyewear",
+        "fastapi",
+        "favorited",
+        "FCNTL",
+        "Fintech",
+        "Firecrawl",
+        "firmographic",
+        "firstname",
+        "fivexfive",
+        "fpath",
+        "getpersona",
+        "GOBIN",
+        "godaddy",
+        "GOPATH",
+        "GOROOT",
+        "gpsf",
+        "Heygen",
+        "Homefurnishing",
+        "hsenc",
+        "HSUI",
+        "HUBSPOT",
+        "hubspotutk",
+        "icps",
+        "ievents",
+        "ilike",
+        "imran",
+        "indenticator",
+        "innovatemr",
+        "Introspector",
+        "inview",
+        "Ipersona",
+        "jobid",
+        "jobtitle",
+        "kata",
+        "kysely",
+        "langchain",
+        "langgraph",
+        "langserve",
+        "lastmodifieddate",
+        "lastname",
+        "LATAM",
+        "lemlist",
+        "lifecyclestage",
+        "LIFECYCLESTAGES",
+        "linkedinc",
+        "lleads",
+        "lookback",
+        "Lucaz",
+        "Lucide",
+        "marketingops",
+        "martech",
+        "Mastra",
+        "MAXLENGTH",
+        "medtronics",
+        "meshverify",
+        "Millis",
+        "Mintlify",
+        "mkdn",
+        "Monokai",
+        "MRBND",
+        "mrkdwn",
+        "nageswara",
+        "nameserver",
+        "NAVI",
+        "networkidle",
+        "nextsnippet",
+        "nomatch",
+        "Notif",
+        "notyet",
+        "Nuqs",
+        "nvim",
+        "olap",
+        "openai",
+        "opslevel",
+        "OUTBOUNDLINK",
+        "Pageviews",
+        "Pipedrive",
+        "pipx",
+        "posthog",
+        "Preline",
+        "Pric",
+        "promptinit",
+        "proot",
+        "PROXYCURL",
+        "Pydantic",
+        "pyenv",
+        "rankedpeople",
+        "Rebecca",
+        "recommendeds",
+        "Reqs",
+        "rerank",
+        "retryable",
+        "rewoo",
+        "rilldata",
+        "rillv",
+        "runscript",
+        "ryzlabs",
+        "salesloft",
+        "SDKMAN",
+        "sessionization",
+        "sessionize",
+        "sessionlist",
+        "setopt",
+        "SFUI",
+        "signin",
+        "signout",
+        "signups",
+        "smartlead",
+        "snapshottable",
+        "Snapshotting",
+        "sobjects",
+        "socialmediainformation",
+        "sonarlint",
+        "Strs",
+        "stylesheet",
+        "Subform",
+        "Subrole",
+        "SUBROLES",
+        "surco",
+        "SYFT",
+        "syftdata",
+        "SYFTDOMAIN",
+        "SYFTEMAIL",
+        "tada",
+        "tailwindcss",
+        "targetable",
+        "targetlists",
+        "Tavily",
+        "technographic",
+        "testid",
+        "tfield",
+        "thumbsup",
+        "timeseries",
+        "timespent",
+        "tipcard",
+        "touchpoint",
+        "Trillons",
+        "Typeahead",
+        "UMAPJ",
+        "unnest",
+        "uorg",
+        "UPDATION",
+        "Upsert",
+        "urbania",
+        "USLACKBOT",
+        "usync",
+        "uvicorn",
+        "vmid",
+        "vname",
+        "wakedup",
+        "webflow",
+        "webstorm",
+        "XJEE",
+        "Zenrows",
+        "zimfw",
+        "zmodload",
+        "zmodule",
+        "zprof"
+    ],
+    "editor.suggestSelection": "first",
+    "editor.snippetSuggestions": "inline",
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.quickSuggestions": {
+        "comments": "off",
+        "other": "off",
+        "strings": "off"
+    },
+    "editor.suggest.insertMode": "replace",
+    "emmet.showAbbreviationSuggestions": false,
+    "window.titleBarStyle": "custom",
+    "presentation-mode.active": {
+        "commands": [],
+        "window.zoomLevel": 3
+    },
+    "presentation-mode.inactive": {
+        "commands": [],
+        "window.zoomLevel": 0
+    },
+    "workbench.preferredLightColorTheme": "Default High Contrast",
+    "workbench.preferredDarkColorTheme": "GitHub Dark High Contrast",
+    "workbench.editor.enablePreview": false,
+    "zenMode.showTabs": "none",
+    "editor.bracketPairColorization.enabled": false,
+    "editor.guides.bracketPairs": "active",
+    "workbench.editor.editorActionsLocation": "hidden",
+    "typescript.disableAutomaticTypeAcquisition": true,
+    "editor.cursorStyle": "block",
+    "security.promptForLocalFileProtocolHandling": false,
+    "workbench.layoutControl.enabled": false,
+    "breadcrumbs.enabled": false,
+}
