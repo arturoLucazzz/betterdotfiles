@@ -27,3 +27,28 @@ prompt ${DOTLY_THEME:-codely}
 source "$DOTLY_PATH/shell/zsh/bindings/dot.zsh"
 source "$DOTLY_PATH/shell/zsh/bindings/reverse_search.zsh"
 source "$DOTFILES_PATH/shell/zsh/key-bindings.zsh"
+
+# ============================================================================== NVM START
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+# ============================================================================== NVM END
+
+# ============================================================================== PSQL START
+export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
+# ============================================================================== PSQL END
+
+# ============================================================================== RILL START
+export PATH="/Users/aLucaz/rill:$PATH"
+# ============================================================================== RILL END
+
+# ============================================================================== PYENV START
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+# ============================================================================== PYENV END
+
+# Created by `pipx` on 2024-12-16 00:51:38
+export PATH="$PATH:/Users/aLucaz/.local/bin"
+
+export PATH=$HOME/.rill:$PATH # Added by Rill install
