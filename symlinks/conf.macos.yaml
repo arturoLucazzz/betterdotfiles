@@ -17,4 +17,4 @@
     ~/bin/sed: /opt/homebrew/bin/gsed
     ~/bin/touch: /opt/homebrew/bin/gtouch
     ~/bin/zsh: /opt/homebrew/bin/zsh
-    ~/Library/Application\ Support/Cursor/User/settings.json: editors/cursor/settings.json
+    ~/Library/Application Support/Cursor/User/settings.json: editors/cursor/settings.json
