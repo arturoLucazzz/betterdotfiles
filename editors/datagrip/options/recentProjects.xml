@@ -1,0 +1,25 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/DataGripProjects/syft-databases">
+          <value>
+            <RecentProjectMetaInfo frameTitle="syft-databases – console [syft-gcp-prod]" opened="true" projectWorkspaceId="2qGsWqx4dR3n6zZIdfvknMJgNLP">
+              <option name="activationTimestamp" value="1771641884390" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="DB-251.23774.426" />
+              <option name="buildTimestamp" value="1744634640000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="4" />
+              </option>
+              <frame x="0" y="32" width="1504" height="1085" />
+              <option name="productionCode" value="DB" />
+              <option name="projectOpenTimestamp" value="1759331380211" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastOpenedProject" value="$USER_HOME$/DataGripProjects/syft-databases" />
+  </component>
+</application>

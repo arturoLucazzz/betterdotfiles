@@ -1,0 +1,63 @@
+<application>
+  <component name="ActionHistoryManager">
+    <ids>
+      <option value="JumpToColorsAndFonts" />
+    </ids>
+  </component>
+  <component name="FileEditorProviderManager">{}</component>
+  <component name="NotRoamableUiSettings">
+    <option name="fontSize" value="13.0" />
+    <option name="ideScale" value="0.8" />
+    <option name="presentationModeIdeScale" value="1.75" />
+    <option name="experimentalSingleStripe" value="true" />
+  </component>
+  <component name="PropertyService"><![CDATA[{
+  "keyToString": {
+    "DG.SingleStripe.Customization2": "true",
+    "DG.SingleStripe.LastLocale": "en",
+    "EditMaximizedView.POSITION": "BOTTOM",
+    "EditMaximizedView.SOFT_WRAPS_DISABLED": "true",
+    "FindSplitterProportion": "0.3297619",
+    "InstalledPluginsSearchHistory": "uts\nut\nshortc\n/tag:Theme\ntheme",
+    "LAST_EXTRACTOR_SCRIPTS_CLEANUP_VERSION/data/aggregators": "DB-252.26830.46",
+    "LAST_EXTRACTOR_SCRIPTS_CLEANUP_VERSION/data/extractors": "DB-252.26830.46",
+    "MarketplacePluginsSearchHistory": "/tag:Theme\ntheme",
+    "PluginConfigurable.selectionTab": "1",
+    "RunOnceActivity.VFSInitializationConditionsToFusReporter": "true",
+    "RunOnceActivity.git.modal.commit.deprecation.notification": "true",
+    "RunOnceActivity.git.modal.commit.toggle": "true",
+    "RunOnceActivity.reset.auto.reparse.settings.to.default": "true",
+    "SettingsSearchHistory": "font size\nzoom\nfont\nshortcuts\nuts",
+    "SqlStructureView.filterD.file.structure.state": "true",
+    "ask.about.ctrl.y.shortcut.v2": "true",
+    "com.intellij.database.actions.DbDeleteProvider$2.proportion": "0.5",
+    "database.notebook.setting.id": "d430b15d-efad-4f6b-92ac-9ba4f989ab7b",
+    "enter_selection_count": "5",
+    "evaluation.feedback.enabled": "false",
+    "evlsprt3.251": "6",
+    "evlsprt3.252": "6",
+    "experimental.ui.used.version": "252.26830.46",
+    "file.gist.reindex.count": "1",
+    "fileTypeChangedCounter": "2",
+    "fontSizeToResetConsole": "14.0",
+    "fontSizeToResetEditor": "14.0",
+    "full.line.logs.sending.asked": "true",
+    "got.it.tooltip.Plugins Auto-Update": "1",
+    "got.it.tooltip.database.schema.control.got.it": "1",
+    "got.it.tooltip.settings.sync.in.settings": "1",
+    "ide.islands.ab2": "true",
+    "llm.installer.last.toolwindow.state": "LLM_INSTALLER",
+    "migrated.non.roamable.values.from.general.settings": "true",
+    "previousColorScheme": "_@user_GitHub Dark Experimental",
+    "registry.to.advanced.settings.migration.build": "DB-252.26830.46",
+    "trial.state.last.state": "EXPIRED"
+  },
+  "keyToStringList": {
+    "fileTypeDetectors": [
+      "com.intellij.ide.scratch.ScratchFileServiceImpl$Detector",
+      "com.intellij.database.vfs.DbStorageFileType$Detector",
+      "org.jetbrains.plugins.textmate.TextMateFileType$TextMateFileDetector"
+    ]
+  }
+}]]></component>
+</application>

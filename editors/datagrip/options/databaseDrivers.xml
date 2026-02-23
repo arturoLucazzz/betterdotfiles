@@ -1,0 +1,13 @@
+<application>
+  <component name="LocalDatabaseDriverManager" version="201">
+    <driver id="clickhouse">
+      <artifact id="ClickHouse" name="ClickHouse" use="true" version="0.6.3" />
+    </driver>
+    <driver id="postgresql">
+      <artifact id="PostgreSQL" name="PostgreSQL" use="true" version="42.7.3" />
+    </driver>
+    <driver id="redis">
+      <artifact id="Redis" name="Redis" use="true" version="1.5" />
+    </driver>
+  </component>
+</application>

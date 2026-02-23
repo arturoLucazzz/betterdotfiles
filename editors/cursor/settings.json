@@ -537,5 +537,4 @@
     "editor.cursorStyle": "block",
     "security.promptForLocalFileProtocolHandling": false,
     "workbench.layoutControl.enabled": false,
-    "breadcrumbs.enabled": false,
 }

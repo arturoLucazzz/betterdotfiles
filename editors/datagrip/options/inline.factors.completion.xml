@@ -1,0 +1,66 @@
+<application>
+  <component name="TimeBetweenTyping">
+    <dailyDataMap>
+      <entry key="2026-02-05">
+        <DailyData>
+          <option name="count" value="409" />
+          <option name="totalTime" value="274825" />
+        </DailyData>
+      </entry>
+      <entry key="2026-02-06">
+        <DailyData>
+          <option name="count" value="152" />
+          <option name="totalTime" value="77565" />
+        </DailyData>
+      </entry>
+      <entry key="2026-02-09">
+        <DailyData>
+          <option name="count" value="269" />
+          <option name="totalTime" value="123609" />
+        </DailyData>
+      </entry>
+      <entry key="2026-02-10">
+        <DailyData>
+          <option name="count" value="240" />
+          <option name="totalTime" value="75928" />
+        </DailyData>
+      </entry>
+      <entry key="2026-02-11">
+        <DailyData>
+          <option name="count" value="233" />
+          <option name="totalTime" value="97285" />
+        </DailyData>
+      </entry>
+      <entry key="2026-02-12">
+        <DailyData>
+          <option name="count" value="55" />
+          <option name="totalTime" value="20682" />
+        </DailyData>
+      </entry>
+      <entry key="2026-02-13">
+        <DailyData>
+          <option name="count" value="154" />
+          <option name="totalTime" value="77939" />
+        </DailyData>
+      </entry>
+      <entry key="2026-02-17">
+        <DailyData>
+          <option name="count" value="285" />
+          <option name="totalTime" value="139128" />
+        </DailyData>
+      </entry>
+      <entry key="2026-02-18">
+        <DailyData>
+          <option name="count" value="431" />
+          <option name="totalTime" value="182700" />
+        </DailyData>
+      </entry>
+      <entry key="2026-02-20">
+        <DailyData>
+          <option name="count" value="415" />
+          <option name="totalTime" value="180724" />
+        </DailyData>
+      </entry>
+    </dailyDataMap>
+  </component>
+</application>

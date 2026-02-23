@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+source "$DOTLY_PATH/scripts/core/_main.sh"
+
+##? Dump Cursor extensions
+##?
+##? Usage:
+##?   cursor-dump
+docs::parse "$@"
+
+CURSOR_DUMP_FILE_PATH="$DOTFILES_PATH/editors/cursor/extensions.txt"
+
+mkdir -p "$DOTFILES_PATH/editors/cursor"
+cursor --list-extensions >"$CURSOR_DUMP_FILE_PATH"
+
+output::answer "Cursor extensions dumped on $CURSOR_DUMP_FILE_PATH"

@@ -2,6 +2,16 @@
   .dotfiles created using <a href="https://github.com/CodelyTV/dotly">🌚 dotly</a>
 </h1>
 
+## In the new computer
+
+xcode-select --install
+
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+brew install git
+
+
+
 ## Restore your Dotfiles manually
 
 * Install git
