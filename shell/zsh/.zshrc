@@ -39,7 +39,7 @@ export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
 # ============================================================================== PSQL END
 
 # ============================================================================== RILL START
-export PATH="/Users/aLucaz/rill:$PATH"
+export PATH="$HOME/rill:$PATH"
 # ============================================================================== RILL END
 
 # ============================================================================== PYENV START
@@ -49,6 +49,6 @@ eval "$(pyenv init -)"
 # ============================================================================== PYENV END
 
 # Created by `pipx` on 2024-12-16 00:51:38
-export PATH="$PATH:/Users/aLucaz/.local/bin"
+export PATH="$PATH:$HOME/.local/bin"
 
 export PATH=$HOME/.rill:$PATH # Added by Rill install
