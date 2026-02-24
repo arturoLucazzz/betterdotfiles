@@ -1,0 +1,33 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+source "$DOTLY_PATH/scripts/core/_main.sh"
+
+##? Install Cursor extensions from extensions.txt
+##?
+##? Usage:
+##?   install-extensions
+docs::parse "$@"
+
+EXTENSIONS_FILE="$DOTFILES_PATH/editors/cursor/extensions.txt"
+
+if [[ ! -f "$EXTENSIONS_FILE" ]]; then
+    output::error "Extensions file not found: $EXTENSIONS_FILE"
+    exit 1
+fi
+
+if ! platform::command_exists cursor; then
+    output::error "Cursor CLI not found. Open Cursor and run: Cmd+Shift+P → 'Install code command'"
+    exit 1
+fi
+
+output::header "Installing Cursor extensions"
+
+while read -r extension; do
+    [[ -z "$extension" ]] && continue
+    output::answer "Installing: $extension"
+    cursor --install-extension "$extension" --force
+done < "$EXTENSIONS_FILE"
+
+output::success "Cursor extensions installed"

@@ -21,3 +21,9 @@
     ~/Library/Application Support/Cursor/User/keybindings.json: editors/cursor/keybindings.json
     ~/Library/Preferences/com.googlecode.iterm2.plist: os/mac/iterm2/com.googlecode.iterm2.plist
     ~/.config/karabiner/karabiner.json: os/mac/karabiner/karabiner.json
+    ~/Library/Preferences/com.todesktop.230313mzl4w4u92.plist: editors/cursor/com.todesktop.230313mzl4w4u92.plist
+    ~/Library/Preferences/com.brave.Browser.plist: os/mac/brave/com.brave.Browser.plist
+    ~/Library/Preferences/com.jetbrains.datagrip.plist: os/mac/datagrip/com.jetbrains.datagrip.plist
+    ~/Library/Preferences/notion.id.plist: os/mac/notion/notion.id.plist
+    ~/Library/Preferences/notion.mail.id.plist: os/mac/notion/notion.mail.id.plist
+    ~/Library/Preferences/com.cron.electron.plist: os/mac/notion/com.cron.electron.plist
