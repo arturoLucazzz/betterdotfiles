@@ -1,7 +1,6 @@
 akamud.vscode-theme-onedark
 anseki.vscode-color
 anysphere.cursorpyright
-azemoh.one-monokai
 beardedbear.beardedicons
 bradlc.vscode-tailwindcss
 codely.codely-theme
