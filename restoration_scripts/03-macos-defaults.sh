@@ -36,6 +36,13 @@ defaults write com.apple.dock orientation -string "bottom"
 # Top bar auto-hide
 defaults write NSGlobalDomain _HIHideMenuBar -bool true
 
+# Brave as default browser
+duti -s com.brave.Browser http
+
+# Key repeat rate
+defaults write -g KeyRepeat -int 1
+defaults write -g InitialKeyRepeat -int 12
+
 # Apply Dock changes
 killall Dock
 killall Finder

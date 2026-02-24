@@ -28,6 +28,7 @@ source "$DOTLY_PATH/shell/zsh/bindings/dot.zsh"
 source "$DOTLY_PATH/shell/zsh/bindings/reverse_search.zsh"
 source "$DOTFILES_PATH/shell/zsh/key-bindings.zsh"
 
+# TODO: make this safer, if things are not installed we shouldn't assume they are available
 # ============================================================================== NVM START
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm

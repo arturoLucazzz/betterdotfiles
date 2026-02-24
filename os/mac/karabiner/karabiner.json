@@ -1,0 +1,747 @@
+{
+  "profiles": [
+      {
+          "complex_modifications": {
+              "parameters": {
+                  "basic.simultaneous_threshold_milliseconds": 100,
+                  "basic.to_delayed_action_delay_milliseconds": 200,
+                  "basic.to_if_alone_timeout_milliseconds": 200,
+                  "basic.to_if_held_down_threshold_milliseconds": 100
+              },
+              "rules": [
+                  {
+                      "description": "[open] iTerm",
+                      "manipulators": [
+                          {
+                              "from": {
+                                  "key_code": "spacebar",
+                                  "modifiers": { "mandatory": ["left_control", "left_option", "left_command"] }
+                              },
+                              "to": [{ "shell_command": "open -a 'iTerm.app'" }],
+                              "type": "basic"
+                          }
+                      ]
+                  },
+                  {
+                      "description": "[open] brave v2",
+                      "manipulators": [
+                          {
+                              "from": {
+                                  "key_code": "1",
+                                  "modifiers": { "mandatory": ["left_command", "fn"] }
+                              },
+                              "to": [{ "shell_command": "open -a 'Brave Browser.app' --args --profile-directory=syft" }],
+                              "type": "basic"
+                          }
+                      ]
+                  },
+                  {
+                      "description": "[open] cursor v2",
+                      "manipulators": [
+                          {
+                              "from": {
+                                  "key_code": "2",
+                                  "modifiers": { "mandatory": ["left_command", "fn"] }
+                              },
+                              "to": [{ "shell_command": "open -a 'Cursor.app'" }],
+                              "type": "basic"
+                          }
+                      ]
+                  },
+                  {
+                      "description": "[open] iTerm v2",
+                      "manipulators": [
+                          {
+                              "from": {
+                                  "key_code": "3",
+                                  "modifiers": { "mandatory": ["left_command", "fn"] }
+                              },
+                              "to": [{ "shell_command": "open -a 'iTerm.app'" }],
+                              "type": "basic"
+                          }
+                      ]
+                  },
+                  {
+                      "description": "[open] DataGrip v2",
+                      "manipulators": [
+                          {
+                              "from": {
+                                  "key_code": "4",
+                                  "modifiers": { "mandatory": ["left_command", "fn"] }
+                              },
+                              "to": [{ "shell_command": "open -a 'DataGrip.app'" }],
+                              "type": "basic"
+                          }
+                      ]
+                  },
+                  {
+                      "description": "[open] Brave",
+                      "manipulators": [
+                          {
+                              "from": {
+                                  "key_code": "b",
+                                  "modifiers": { "mandatory": ["left_control", "left_option", "left_command"] }
+                              },
+                              "to": [{ "shell_command": "open -a 'Brave Browser.app'" }],
+                              "type": "basic"
+                          }
+                      ]
+                  },
+                  {
+                      "description": "[open] IntelliJ",
+                      "manipulators": [
+                          {
+                              "from": {
+                                  "key_code": "i",
+                                  "modifiers": { "mandatory": ["left_control", "left_option", "left_command"] }
+                              },
+                              "to": [{ "shell_command": "open -a 'IntelliJ IDEA Ultimate.app'" }],
+                              "type": "basic"
+                          }
+                      ]
+                  },
+                  {
+                      "description": "[open] VSCode",
+                      "manipulators": [
+                          {
+                              "from": {
+                                  "key_code": "c",
+                                  "modifiers": { "mandatory": ["left_control", "left_option", "left_command"] }
+                              },
+                              "to": [{ "shell_command": "open -a 'Visual Studio Code.app'" }],
+                              "type": "basic"
+                          }
+                      ]
+                  },
+                  {
+                      "description": "[keyboard] disable minimize with cmd+m",
+                      "manipulators": [
+                          {
+                              "from": {
+                                  "key_code": "m",
+                                  "modifiers": { "mandatory": ["left_command"] }
+                              },
+                              "to": [
+                                  {
+                                      "key_code": "m",
+                                      "modifiers": ["left_command", "left_control", "left_shift"]
+                                  }
+                              ],
+                              "type": "basic"
+                          }
+                      ]
+                  },
+                  {
+                      "description": "[keyboard] supr ctrl+backspace",
+                      "manipulators": [
+                          {
+                              "from": {
+                                  "key_code": "delete_or_backspace",
+                                  "modifiers": { "mandatory": ["left_control"] }
+                              },
+                              "to": [{ "key_code": "delete_forward" }],
+                              "type": "basic"
+                          }
+                      ]
+                  },
+                  {
+                      "description": "[keyboard] Alphanumeric navigation",
+                      "manipulators": [
+                          {
+                              "from": {
+                                  "key_code": "o",
+                                  "modifiers": { "mandatory": ["right_command"] }
+                              },
+                              "to": [{ "key_code": "up_arrow" }],
+                              "type": "basic"
+                          },
+                          {
+                              "from": {
+                                  "key_code": "l",
+                                  "modifiers": { "mandatory": ["right_command"] }
+                              },
+                              "to": [{ "key_code": "down_arrow" }],
+                              "type": "basic"
+                          },
+                          {
+                              "from": {
+                                  "key_code": "k",
+                                  "modifiers": { "mandatory": ["right_command"] }
+                              },
+                              "to": [{ "key_code": "left_arrow" }],
+                              "type": "basic"
+                          },
+                          {
+                              "from": {
+                                  "key_code": "semicolon",
+                                  "modifiers": { "mandatory": ["right_command"] }
+                              },
+                              "to": [{ "key_code": "right_arrow" }],
+                              "type": "basic"
+                          }
+                      ]
+                  },
+                  {
+                      "description": "[keyboard] I wanna learn typing",
+                      "manipulators": [
+                          {
+                              "from": {
+                                  "key_code": "a",
+                                  "modifiers": { "mandatory": ["left_option"] }
+                              },
+                              "to": [{ "shell_command": "/opt/homebrew/bin/skhd -t \"á\"" }],
+                              "type": "basic"
+                          },
+                          {
+                              "from": {
+                                  "key_code": "e",
+                                  "modifiers": { "mandatory": ["left_option"] }
+                              },
+                              "to": [{ "shell_command": "/opt/homebrew/bin/skhd -t \"é\"" }],
+                              "type": "basic"
+                          },
+                          {
+                              "from": {
+                                  "key_code": "i",
+                                  "modifiers": { "mandatory": ["left_option"] }
+                              },
+                              "to": [{ "shell_command": "/opt/homebrew/bin/skhd -t \"í\"" }],
+                              "type": "basic"
+                          },
+                          {
+                              "from": {
+                                  "key_code": "o",
+                                  "modifiers": { "mandatory": ["left_option"] }
+                              },
+                              "to": [{ "shell_command": "/opt/homebrew/bin/skhd -t \"ó\"" }],
+                              "type": "basic"
+                          },
+                          {
+                              "from": {
+                                  "key_code": "u",
+                                  "modifiers": { "mandatory": ["left_option"] }
+                              },
+                              "to": [{ "shell_command": "/opt/homebrew/bin/skhd -t \"ú\"" }],
+                              "type": "basic"
+                          },
+                          {
+                              "from": {
+                                  "key_code": "n",
+                                  "modifiers": { "mandatory": ["left_option"] }
+                              },
+                              "to": [{ "shell_command": "/opt/homebrew/bin/skhd -t \"ñ\"" }],
+                              "type": "basic"
+                          }
+                      ]
+                  },
+                  {
+                      "description": "[util] Clipboard history",
+                      "manipulators": [
+                          {
+                              "from": {
+                                  "key_code": "v",
+                                  "modifiers": { "mandatory": ["left_command", "left_shift"] }
+                              },
+                              "to": [
+                                  {
+                                      "key_code": "0",
+                                      "modifiers": ["left_command", "left_control", "left_option"]
+                                  }
+                              ],
+                              "type": "basic"
+                          }
+                      ]
+                  },
+                  {
+                      "description": "[util] Copy without format",
+                      "manipulators": [
+                          {
+                              "from": {
+                                  "key_code": "v",
+                                  "modifiers": { "mandatory": ["left_command", "left_option", "left_shift"] }
+                              },
+                              "to": [
+                                  {
+                                      "key_code": "v",
+                                      "modifiers": ["left_command"]
+                                  }
+                              ],
+                              "type": "basic"
+                          }
+                      ]
+                  },
+                  {
+                      "description": "[vscode] improve shortcuts",
+                      "manipulators": [
+                          {
+                              "conditions": [
+                                  {
+                                      "bundle_identifiers": [
+                                          "com.microsoft.VSCode"
+                                      ],
+                                      "type": "frontmost_application_if"
+                                  }
+                              ],
+                              "from": {
+                                  "key_code": "e",
+                                  "modifiers": { "mandatory": ["left_command"] }
+                              },
+                              "to": [
+                                  {
+                                      "key_code": "e",
+                                      "modifiers": ["left_command"]
+                                  },
+                                  { "key_code": "down_arrow" }
+                              ],
+                              "type": "basic"
+                          },
+                          {
+                              "conditions": [
+                                  {
+                                      "bundle_identifiers": [
+                                          "com.microsoft.VSCode"
+                                      ],
+                                      "type": "frontmost_application_if"
+                                  }
+                              ],
+                              "from": {
+                                  "key_code": "slash",
+                                  "modifiers": { "mandatory": ["left_command"] }
+                              },
+                              "to": [
+                                  {
+                                      "key_code": "slash",
+                                      "modifiers": ["left_command"]
+                                  },
+                                  { "key_code": "down_arrow" }
+                              ],
+                              "type": "basic"
+                          }
+                      ]
+                  },
+                  {
+                      "description": "[cursor] improve shortcuts",
+                      "manipulators": [
+                          {
+                              "conditions": [
+                                  {
+                                      "bundle_identifiers": [
+                                          "com.todesktop.230313mzl4w4u92"
+                                      ],
+                                      "type": "frontmost_application_if"
+                                  }
+                              ],
+                              "from": {
+                                  "key_code": "e",
+                                  "modifiers": { "mandatory": ["left_command"] }
+                              },
+                              "to": [
+                                  {
+                                      "key_code": "e",
+                                      "modifiers": ["left_command"]
+                                  },
+                                  { "key_code": "down_arrow" }
+                              ],
+                              "type": "basic"
+                          },
+                          {
+                              "conditions": [
+                                  {
+                                      "bundle_identifiers": [
+                                          "com.todesktop.230313mzl4w4u92"
+                                      ],
+                                      "type": "frontmost_application_if"
+                                  }
+                              ],
+                              "from": {
+                                  "key_code": "slash",
+                                  "modifiers": { "mandatory": ["left_command"] }
+                              },
+                              "to": [
+                                  {
+                                      "key_code": "slash",
+                                      "modifiers": ["left_command"]
+                                  },
+                                  { "key_code": "down_arrow" }
+                              ],
+                              "type": "basic"
+                          }
+                      ]
+                  },
+                  {
+                      "description": "[brave] paste without format",
+                      "manipulators": [
+                          {
+                              "conditions": [
+                                  {
+                                      "bundle_identifiers": [
+                                          "com.brave.Browser"
+                                      ],
+                                      "type": "frontmost_application_if"
+                                  }
+                              ],
+                              "from": {
+                                  "key_code": "v",
+                                  "modifiers": { "mandatory": ["left_command"] }
+                              },
+                              "to": [
+                                  {
+                                      "key_code": "v",
+                                      "modifiers": ["left_command", "left_shift"]
+                                  }
+                              ],
+                              "type": "basic"
+                          }
+                      ]
+                  },
+                  {
+                      "description": "[brave] Show recent tabs",
+                      "manipulators": [
+                          {
+                              "conditions": [
+                                  {
+                                      "bundle_identifiers": [
+                                          "com.brave.Browser"
+                                      ],
+                                      "type": "frontmost_application_if"
+                                  }
+                              ],
+                              "from": {
+                                  "key_code": "e",
+                                  "modifiers": { "mandatory": ["left_command"] }
+                              },
+                              "to": [
+                                  {
+                                      "key_code": "a",
+                                      "modifiers": ["left_command", "left_shift"]
+                                  }
+                              ],
+                              "type": "basic"
+                          }
+                      ]
+                  },
+                  {
+                      "description": "[brave] Toggle sidebar",
+                      "manipulators": [
+                          {
+                              "conditions": [
+                                  {
+                                      "bundle_identifiers": [
+                                          "com.brave.Browser"
+                                      ],
+                                      "type": "frontmost_application_if"
+                                  }
+                              ],
+                              "from": {
+                                  "key_code": "1",
+                                  "modifiers": { "mandatory": ["left_command"] }
+                              },
+                              "to": [
+                                  {
+                                      "key_code": "b",
+                                      "modifiers": ["left_command"]
+                                  }
+                              ],
+                              "type": "basic"
+                          }
+                      ]
+                  },
+                  {
+                      "description": "[brave] Switch profile with escape",
+                      "manipulators": [
+                          {
+                              "conditions": [
+                                  {
+                                      "bundle_identifiers": [
+                                          "com.brave.Browser"
+                                      ],
+                                      "type": "frontmost_application_if"
+                                  }
+                              ],
+                              "from": {
+                                  "key_code": "escape",
+                                  "modifiers": { "mandatory": ["left_command"] }
+                              },
+                              "to": [
+                                  {
+                                      "key_code": "m",
+                                      "modifiers": ["left_command", "left_shift"]
+                                  },
+                                  { "key_code": "return_or_enter" }
+                              ],
+                              "type": "basic"
+                          }
+                      ]
+                  },
+                  {
+                      "description": "[notion] Show recent pages",
+                      "manipulators": [
+                          {
+                              "conditions": [
+                                  {
+                                      "bundle_identifiers": [
+                                          "notion.id"
+                                      ],
+                                      "type": "frontmost_application_if"
+                                  }
+                              ],
+                              "from": {
+                                  "key_code": "e",
+                                  "modifiers": { "mandatory": ["left_command"] }
+                              },
+                              "to": [
+                                  {
+                                      "key_code": "p",
+                                      "modifiers": ["left_command"]
+                                  }
+                              ],
+                              "type": "basic"
+                          }
+                      ]
+                  },
+                  {
+                      "description": "[notion] Toggle sidebar",
+                      "manipulators": [
+                          {
+                              "conditions": [
+                                  {
+                                      "bundle_identifiers": [
+                                          "notion.id"
+                                      ],
+                                      "type": "frontmost_application_if"
+                                  }
+                              ],
+                              "from": {
+                                  "key_code": "1",
+                                  "modifiers": { "mandatory": ["left_command"] }
+                              },
+                              "to": [
+                                  {
+                                      "key_code": "backslash",
+                                      "modifiers": ["left_command"]
+                                  }
+                              ],
+                              "type": "basic"
+                          }
+                      ]
+                  },
+                  {
+                      "description": "[gitkraken] Show recent pages",
+                      "manipulators": [
+                          {
+                              "conditions": [
+                                  {
+                                      "bundle_identifiers": [
+                                          "com.axosoft.gitkraken"
+                                      ],
+                                      "type": "frontmost_application_if"
+                                  }
+                              ],
+                              "from": {
+                                  "key_code": "e",
+                                  "modifiers": { "mandatory": ["left_command"] }
+                              },
+                              "to": [
+                                  {
+                                      "key_code": "a",
+                                      "modifiers": ["left_command", "left_shift"]
+                                  }
+                              ],
+                              "type": "basic"
+                          }
+                      ]
+                  },
+                  {
+                      "description": "[gitkraken] Toggle sidebar",
+                      "manipulators": [
+                          {
+                              "conditions": [
+                                  {
+                                      "bundle_identifiers": [
+                                          "com.axosoft.gitkraken"
+                                      ],
+                                      "type": "frontmost_application_if"
+                                  }
+                              ],
+                              "from": {
+                                  "key_code": "1",
+                                  "modifiers": { "mandatory": ["left_command"] }
+                              },
+                              "to": [
+                                  {
+                                      "key_code": "backslash",
+                                      "modifiers": ["left_command"]
+                                  }
+                              ],
+                              "type": "basic"
+                          }
+                      ]
+                  },
+                  {
+                      "description": "[notes] Show recent pages",
+                      "manipulators": [
+                          {
+                              "conditions": [
+                                  {
+                                      "bundle_identifiers": [
+                                          "com.apple.Notes"
+                                      ],
+                                      "type": "frontmost_application_if"
+                                  }
+                              ],
+                              "from": {
+                                  "key_code": "e",
+                                  "modifiers": { "mandatory": ["left_command"] }
+                              },
+                              "to": [
+                                  {
+                                      "key_code": "f",
+                                      "modifiers": ["left_command", "left_option"]
+                                  }
+                              ],
+                              "type": "basic"
+                          }
+                      ]
+                  },
+                  {
+                      "description": "[notes] Toggle sidebar",
+                      "manipulators": [
+                          {
+                              "conditions": [
+                                  {
+                                      "bundle_identifiers": [
+                                          "com.apple.Notes"
+                                      ],
+                                      "type": "frontmost_application_if"
+                                  }
+                              ],
+                              "from": {
+                                  "key_code": "1",
+                                  "modifiers": { "mandatory": ["left_command"] }
+                              },
+                              "to": [
+                                  {
+                                      "key_code": "s",
+                                      "modifiers": ["left_option", "left_command"]
+                                  }
+                              ],
+                              "type": "basic"
+                          }
+                      ]
+                  },
+                  {
+                      "description": "[postman] Show recent pages",
+                      "manipulators": [
+                          {
+                              "conditions": [
+                                  {
+                                      "bundle_identifiers": [
+                                          "com.postmanlabs.mac"
+                                      ],
+                                      "type": "frontmost_application_if"
+                                  }
+                              ],
+                              "from": {
+                                  "key_code": "e",
+                                  "modifiers": { "mandatory": ["left_command"] }
+                              },
+                              "to": [
+                                  {
+                                      "key_code": "k",
+                                      "modifiers": ["left_command"]
+                                  }
+                              ],
+                              "type": "basic"
+                          }
+                      ]
+                  },
+                  {
+                      "description": "[postman] Toggle sidebar",
+                      "manipulators": [
+                          {
+                              "conditions": [
+                                  {
+                                      "bundle_identifiers": [
+                                          "com.postmanlabs.mac"
+                                      ],
+                                      "type": "frontmost_application_if"
+                                  }
+                              ],
+                              "from": {
+                                  "key_code": "1",
+                                  "modifiers": { "mandatory": ["left_command"] }
+                              },
+                              "to": [
+                                  {
+                                      "key_code": "backslash",
+                                      "modifiers": ["left_command"]
+                                  }
+                              ],
+                              "type": "basic"
+                          }
+                      ]
+                  }
+              ]
+          },
+          "devices": [
+              {
+                  "identifiers": {
+                      "is_keyboard": true,
+                      "is_pointing_device": true,
+                      "product_id": 591,
+                      "vendor_id": 1452
+                  },
+                  "ignore": false
+              },
+              {
+                  "identifiers": {
+                      "is_keyboard": true,
+                      "is_pointing_device": true,
+                      "product_id": 640,
+                      "vendor_id": 13364
+                  },
+                  "ignore": false
+              },
+              {
+                  "identifiers": {
+                      "is_keyboard": true,
+                      "product_id": 45930,
+                      "vendor_id": 1133
+                  },
+                  "manipulate_caps_lock_led": false
+              },
+              {
+                  "identifiers": {
+                      "is_keyboard": true,
+                      "is_pointing_device": true,
+                      "product_id": 1809,
+                      "vendor_id": 13364
+                  },
+                  "ignore": false
+              },
+              {
+                  "identifiers": {
+                      "is_keyboard": true,
+                      "product_id": 666,
+                      "vendor_id": 76
+                  },
+                  "simple_modifications": [
+                      {
+                          "from": { "apple_vendor_top_case_key_code": "keyboard_fn" },
+                          "to": [{ "key_code": "left_control" }]
+                      }
+                  ]
+              }
+          ],
+          "name": "Default profile",
+          "selected": true,
+          "simple_modifications": [
+              {
+                  "from": { "apple_vendor_top_case_key_code": "keyboard_fn" },
+                  "to": [{ "key_code": "left_control" }]
+              }
+          ],
+          "virtual_hid_keyboard": { "keyboard_type_v2": "ansi" }
+      }
+  ]
+}

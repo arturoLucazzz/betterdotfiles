@@ -20,3 +20,4 @@
     ~/Library/Application Support/Cursor/User/settings.json: editors/cursor/settings.json
     ~/Library/Application Support/Cursor/User/keybindings.json: editors/cursor/keybindings.json
     ~/Library/Preferences/com.googlecode.iterm2.plist: os/mac/iterm2/com.googlecode.iterm2.plist
+    ~/.config/karabiner/karabiner.json: os/mac/karabiner/karabiner.json

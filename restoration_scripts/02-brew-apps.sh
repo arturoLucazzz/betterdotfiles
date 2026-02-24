@@ -29,5 +29,23 @@ brew install --cask shottr
 brew install --cask topnotch
 brew install --cask telegram
 brew install --cask whatsapp
+brew install --cask notion-calendar
+
+# Other tools
+brew install duti
+brew install asmvik/formulae/skhd
+
+
+# Development
+brew install pyenv
+brew install pyenv-virtualenv
+brew install postgresql@15
+brew install redis
+
+
+# Starting services
+brew services start postgresql@15
+brew services start redis
+brew services start skhd
 
 echo "Homebrew apps installed"
