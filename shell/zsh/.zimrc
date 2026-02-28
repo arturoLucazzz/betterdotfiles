@@ -5,3 +5,5 @@ zmodule zimfw/input
 zmodule zimfw/completion
 zmodule zsh-users/zsh-syntax-highlighting
 zmodule zsh-users/zsh-autosuggestions
+zmodule zimfw/smite
+zmodule zimfw/fzf

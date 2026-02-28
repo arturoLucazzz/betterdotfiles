@@ -44,3 +44,6 @@ zimfw install
 ## utils
 
 dot symlinks apply
+
+## 
+if zimfw install have warning or fails remove .dotfiles/shell/zsh/.zim/modules/

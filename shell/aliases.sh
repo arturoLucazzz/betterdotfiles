@@ -3,8 +3,6 @@ alias sudo='sudo '
 
 alias ..="cd .."
 alias ...="cd ../.."
-alias ll="ls -l"
-alias la="ls -la"
 alias ~="cd ~"
 alias dotfiles='cd $DOTFILES_PATH'
 
@@ -45,4 +43,11 @@ alias asdf='cd ~/Code/syft'
 alias cdc='cd ~/Code/personal'
 alias clera='clear'
 alias up='dot package update_all'
-alias ls='ls -l'
+
+alias ls='lsd'
+alias l='lsd -l'
+alias la='lsd -a'
+alias lla='lsd -la'
+alias lt='lsd --tree'
+
+alias h='smite -a'

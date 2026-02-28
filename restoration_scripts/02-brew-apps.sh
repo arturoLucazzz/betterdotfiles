@@ -41,6 +41,22 @@ brew install pyenv
 brew install pyenv-virtualenv
 brew install postgresql@15
 brew install redis
+brew install lsd
+brew install bat
+brew install htop
+brew install btop
+brew install dust
+brew install fd
+brew install zoxide
+brew install eza
+brew install bottom
+brew install lazygit
+brew install fzf
+brew install bfs
+brew install fd
+brew install ripgrep
+brew install ugrep
+brew install mise
 
 
 # Starting services
